@@ -2,7 +2,7 @@
  
 User Story 1
 
--able to upload the csv file to get all the employees data
+- able to upload the csv file to get all the employees data
 
 
 User Story 2
