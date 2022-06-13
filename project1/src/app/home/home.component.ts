@@ -16,7 +16,7 @@ export class HomeComponent implements OnInit {
 
   filename='';
 
-  onFileSelect(event:any){
+  onFileSelected(event:any){
     const file:File = event.target.files[0];
 
     if(file){

@@ -3,6 +3,8 @@
 
     <form>
         <p>Upload csv file</p>
-        <input type="file" class="file-upload" (change)="onFileSelect($event)">
+        <input type="file" class="file-upload" (change)="onFileSelected($event)"> 
+         <a routerLinkActive="active" routerLink="/employees" class="nav-link"
+        >Employees</a>
     </form>
 </div>
