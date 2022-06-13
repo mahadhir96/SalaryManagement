@@ -1,0 +1,20 @@
+<h2> Employee List</h2>
+<table class =" table table-striped">
+    <thead>
+        <tr>
+            <th (click)="sort('id')">Id&nbsp;<i class="fa fa-sort"></i></th>
+            <th (click)="sort('loginName')">Login Name&nbsp;<i class="fa fa-sort"></i></th>
+            <th (click)="sort('name')">Name&nbsp;<i class="fa fa-sort"></i></th>
+            <th (click)="sort('salary')">Salary&nbsp;<i class="fa fa-sort"></i></th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor = "let employee of employees | orderBy: key: reverse | paginate: {itemsPerPage:30,currentPage:p};">
+            <td> {{ employee.id }} </td>
+            <td> {{ employee.loginName }} </td>
+            <td> {{ employee.name }} </td>
+            <td> {{ employee.salary }} </td>
+        </tr>
+    </tbody>
+    <pagination-controls (pageChange)= "p = $event"></pagination-controls>
+</table>
