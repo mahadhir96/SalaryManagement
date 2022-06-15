@@ -37,5 +37,19 @@ export class EmployeeListComponent implements OnInit {
     this.reverse = !this.reverse;
   }
 
+  employeeDetails(id: string){
+    this.router.navigate(['employee-details', id]);
+  }
 
+  updateEmployee(id: string){
+    this.router.navigate(['update-employee', id]);
+  }
+
+  deleteEmployee(id: string){
+    this.employeeService.deleteEmployee(id).subscribe( data => {
+      console.log(data);
+      this.getEmployees();
+    })
+
+}
 }

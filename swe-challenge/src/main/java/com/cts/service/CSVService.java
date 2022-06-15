@@ -16,21 +16,21 @@ import com.cts.repository.EmployeeRepository;
 public class CSVService {
 	
 	 @Autowired
-	  EmployeeRepository Erepo;
+	  EmployeeRepository employeeRepository;
 	  public void save(MultipartFile file) {
 	    try {
 	      List<Employee> employees = CSVHelper.csvToEmployees(file.getInputStream());
-	      Erepo.saveAll(employees);
+	      employeeRepository.saveAll(employees);
 	    } catch (IOException e) {
 	      throw new RuntimeException("fail to store csv data: " + e.getMessage());
 	    }
 	  }
 	  public List<Employee> getAllEmployees() {
-	    return Erepo.findAll();
+	    return employeeRepository.findAll();
 	  }
 	
 	  public List<Employee> getFilteredUsers(Double minS, Double maxS) {
 		// TODO Auto-generated method stub
-		return Erepo.getFilteredUsers(minS, maxS);
+		return employeeRepository.getFilteredUsers(minS, maxS);
 	}
 }

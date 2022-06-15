@@ -10,11 +10,13 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.multipart.MultipartFile;
 
+import com.cts.exception.ResourceNotFoundException;
 import com.cts.helper.CSVHelper;
 import com.cts.message.ResponseMessage;
 import com.cts.model.Employee;
@@ -69,8 +71,8 @@ public class EmployeeController {
 //		  }
 //		  retrun null;
 //	  }
-//	  	@Autowired
-//	  	private EmployeeRepository repository;
+	  	@Autowired
+	  	private EmployeeRepository employeeRepository;
 //
 //	  	@GetMapping("/users")
 //	  	public ResponseEntity<?> getUsers(@RequestParam double minSalary, @RequestParam double maxSalary,
@@ -133,5 +135,19 @@ public class EmployeeController {
 	  		}catch(Exception e) {
 	  			return new ResponseEntity<>(null,HttpStatus.INTERNAL_SERVER_ERROR)
 	  		}
+	  	}
+	  	
+	  	//update employee rest api
+	  	public ResponseEntity<Employee>updateEmployee(@PathVariable String id, @RequestBody Employee employeeDetails){
+			Employee employee = employeeRepository.findById(id)
+					.orElseThrow(() -> new ResourceNotFoundException("Employe not exist with id :" + id));
+			
+	  		employee.setLoginName(employeeDetails.getLoginName());
+	  		employee.setName(employeeDetails.getName());
+	  		employee.setSalary(employeeDetails.getSalary());
+	  		
+	  		return null;
+	  		
+	  		
 	  	}
 }
