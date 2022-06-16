@@ -2,9 +2,11 @@
 
 ## Overview
 
-This backend is 
+This project was generated with Spring Boot version 2.7.0
 
 ## Getting Started 
+
+To run the project go to the src/main/java, com.cts.SalaryManagement package , run the SalaryManangement.java file as Java Application.
 
 ## User Story 1 
 
