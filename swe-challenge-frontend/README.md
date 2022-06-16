@@ -1,6 +1,9 @@
-# Project
-This is the frontend of the project
+# Salary Maangement WebApp - Front end
+
+## Overview
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
+
+## 
 
 ## Development server
 
