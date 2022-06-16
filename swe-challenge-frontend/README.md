@@ -15,22 +15,22 @@
 
 ![homepage](https://user-images.githubusercontent.com/71129999/174094674-85ba8e1c-86c0-4a7b-a3d9-787de7e7c8ee.PNG)
 
-**Employees-List**
+**Employees List**
 - Press the `Employees List` to get the list to upload 
 
 ![view](https://user-images.githubusercontent.com/71129999/174094694-95227d6c-fe19-4eee-a659-bad2c4ca7599.PNG)
 
 - 1. Filter the min and max salary
  
-- 2. View the employee details 
+- 2. View the employees details 
 
 ![viewindi](https://user-images.githubusercontent.com/71129999/174094721-3b8cdb48-5842-4f00-b8c7-f2e195f75444.PNG)
 
-- 3) edit and update the list 
+- 3) Edit and update the list 
  
 ![dasdasd](https://user-images.githubusercontent.com/71129999/174094713-fe0f571e-fb57-4c9e-8866-af9b04ed1a7b.PNG)
 
-- 4) delete the employee details from the list
+- 4) Delete the employee details from the list
 
 ## Code scaffolding
 
