@@ -22,15 +22,15 @@
 
 - 1. Filter the min and max salary
  
-- 2. View the employees details 
+- 2. View the employees individual details 
 
 ![viewindi](https://user-images.githubusercontent.com/71129999/174094721-3b8cdb48-5842-4f00-b8c7-f2e195f75444.PNG)
 
-- 3) Edit and update the list 
+- 3) Edit and update the list of the employees
  
 ![dasdasd](https://user-images.githubusercontent.com/71129999/174094713-fe0f571e-fb57-4c9e-8866-af9b04ed1a7b.PNG)
 
-- 4) Delete the employee details from the list
+- 4) Delete the employees details from the list
 
 ## Code scaffolding
 
