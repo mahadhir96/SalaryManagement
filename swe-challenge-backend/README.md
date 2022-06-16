@@ -30,7 +30,7 @@ To run the project go to the **src/main/java**, **com.cts.SweChallange** package
 ## User Story 2 
 
 - To get the max and min salary range of the employees, using the @Getmapping method and @Pathvariable under the file employeee.Controller.java
-- Sorting of columns are done by frontend 
+- Sorting of columns can be sorted by clicking of the individual headers
 
 ## User Story 3 
 
