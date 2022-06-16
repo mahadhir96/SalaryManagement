@@ -3,18 +3,31 @@
 ## Overview
 
 
-##Getting Started 
+## Getting Started 
 
-##User Story 1 
+## User Story 1 
 
--To upload csv file containing list of employees details 
--Using postman to check if the 
+- To upload csv file containing list of employees details 
+
+- Using postman POST localhost:8002/api/csv/upload and add in the csv file manually to check if the csv upload successfully (image below)
+
+![Capture](https://user-images.githubusercontent.com/71129999/174008245-5fd0b790-dc75-45bc-828f-f723925189fd.PNG)
+
+
+- To confirm the employees details there is two ways to check 
+
+- 1st method by checking the localhost:8002/h2 and SELECT * FROM EMPLOYEES (picture below)
 
 
 
-localhost:8002/api/csv/upload is the link to upload the csv file 
+- 2nd method by checking the postman GET localhost:8002/api/csv/employees (picture below)
 
-Currently using postman to upload the file manually 
+## User Story 2 
 
-localhost:8002/api/csv/employees to check that all the employees data is uploaded
+- To get the max and min salary range of the employees, using the @Getmapping method and @Pathvariable under the file employee controller
+- Sorting of columns are done by frontend 
+
+## User Story 3 
+
+- To view ind
 
