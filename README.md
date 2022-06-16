@@ -1,4 +1,4 @@
-# SalaryManagement
+# SWE Challange MVP Salary Management Web Application
  
 User Story 1
 
@@ -11,3 +11,4 @@ User Story 2
 - unable to do the max and min salary 
 
 
+User Story 3 
