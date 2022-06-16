@@ -1,13 +1,32 @@
 # Salary Maangement WebApp - Front end
 
 ## Overview
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
-## 
+- This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.0.
 
-## Development server
+## How to run the file
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- Run `ng serve` or `npm install all` before `ng serve` in the terminal. It will navigate to `http://localhost:4200/`.
+
+## Screenshot of the webapp
+
+**Home Page**
+- To upload csv file to database
+
+
+**Employees-List**
+- Press the `Employees List` to get the list to upload 
+
+
+
+
+- 1) Filter the min and max salary
+- 2) view the employee details 
+- 3) edit and update the list 
+- 4) delete the employee details from the list
+
+
+
 
 ## Code scaffolding
 
