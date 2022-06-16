@@ -6,7 +6,7 @@ This project was generated with Spring Boot version 2.7.0
 
 ## Getting Started 
 SweChallange
-To run the project go to the src/main/java, com.cts.SweChallange package , run the SweChallange.java file as Java Application.
+To run the project go to the src/main/java, com.cts.SweChallange package , run the SweChallangeApplication.java file as Java Application.
 
 ## User Story 1 
 
