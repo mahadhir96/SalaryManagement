@@ -11,13 +11,13 @@ import { EmployeeService } from '../employee.service';
 })
 export class EmployeeListComponent implements OnInit {
 
-  private apiUrl:string = "http://localhost:8002/employees/"; 
+  private url:string = "http://localhost:8002/employees/"; 
   employees: Employee[] = [];
   p:number = 1;
   minS: number = 0;
   maxS: number = 99999;
   offset: number = 0;
-  limit: number = 6;
+  limit: number = 30;
 
   constructor(private employeeService: EmployeeService,
               private http:HttpClient, 
@@ -42,9 +42,9 @@ export class EmployeeListComponent implements OnInit {
     this.reverse = !this.reverse;
   }
 
-  valChange() {
+  rangeSalary() {
     this.router.navigate(['/employees'],{queryParams: {minSalary:this.minS, maxSalary:this.maxS, offset:this.offset, limit:this.limit}});
-    this.http.get<Employee[]>(this.apiUrl+this.minS+"/"+this.maxS+"/"+this.offset+"/"+this.limit)
+    this.http.get<Employee[]>(this.url+this.minS+"/"+this.maxS+"/"+this.offset+"/"+this.limit)
     .subscribe(data=>{
       if (data === null){
         this.employees=[];
