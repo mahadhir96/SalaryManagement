@@ -4,7 +4,7 @@
 - This webapp is to help the HR department manage employees' salaries 
 
 # Project Folder 
-- [swe challange-frontend](https://github.com/mahadhir96/SalaryManagement/tree/main/swe-chaallenge-frontend)
+- [swe challange-frontend](https://github.com/mahadhir96/SalaryManagement/tree/main/swe-challenge-frontend)
 - [swe challange-backend](https://github.com/mahadhir96/SalaryManagement/tree/main/swe-challenge-backend)
 
 # README Link
