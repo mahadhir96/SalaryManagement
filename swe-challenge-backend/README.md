@@ -14,7 +14,7 @@ To run the project go to the **src/main/java**, **com.cts.SweChallange** package
 
 - Using postman **POST** `localhost:8002/employees/upload` and add in the csv file manually to check if the csv upload successfully **(image below)**
 
-![Capture](https://user-images.githubusercontent.com/71129999/174008245-5fd0b790-dc75-45bc-828f-f723925189fd.PNG)
+![Capture](https://user-images.githubusercontent.com/71129999/174096861-e83cd99b-22ac-434d-af00-d3bde08d8d4a.PNG)
 
 
 - To confirm the employees details there is two ways to check 
