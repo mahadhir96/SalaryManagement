@@ -12,6 +12,7 @@
 
 **Home Page**
 - To upload csv file to database
+
 ![homepage](https://user-images.githubusercontent.com/71129999/174094674-85ba8e1c-86c0-4a7b-a3d9-787de7e7c8ee.PNG)
 
 **Employees-List**
@@ -22,7 +23,7 @@
 - 1. Filter the min and max salary
  
 - 2. View the employee details 
-- 
+
 ![viewindi](https://user-images.githubusercontent.com/71129999/174094721-3b8cdb48-5842-4f00-b8c7-f2e195f75444.PNG)
 
 - 3) edit and update the list 
