@@ -15,3 +15,4 @@
 Project is created with: 
 - Angular version: 14.0.1
 - Java version: 17.0.1
+- Spring boot verison: 2.7.0
