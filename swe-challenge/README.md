@@ -12,18 +12,18 @@ To run the project go to the src/main/java, com.cts.SalaryManagement package , r
 
 - To upload csv file containing list of employees details 
 
-- Using postman POST localhost:8002/api/csv/upload and add in the csv file manually to check if the csv upload successfully (image below)
+- Using postman POST localhost:8002/api/csv/upload and add in the csv file manually to check if the csv upload successfully **(image below)**
 
 ![Capture](https://user-images.githubusercontent.com/71129999/174008245-5fd0b790-dc75-45bc-828f-f723925189fd.PNG)
 
 
 - To confirm the employees details there is two ways to check 
 
-- 1st method by checking the localhost:8002/h2 and SELECT * FROM EMPLOYEES (picture below)
+- 1st method by checking the localhost:8002/h2 and SELECT * FROM EMPLOYEES **(image below)**
 
 ![11](https://user-images.githubusercontent.com/71129999/174016479-b1c4435a-6792-4801-8433-74a61b4c4b93.PNG)
 
-- 2nd method by checking the postman GET localhost:8002/api/csv/employees (picture below)
+- 2nd method by checking the postman GET localhost:8002/api/csv/employees **(image below)**
 
 ![dasdsada](https://user-images.githubusercontent.com/71129999/174016788-bd98f240-a1e6-469a-887f-2b16775cbe9d.PNG)
 
