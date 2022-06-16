@@ -8,8 +8,8 @@
 - [swe challange-backend](https://github.com/mahadhir96/SalaryManagement/tree/main/swe-challenge-backend)
 
 # README Link
-- This link for README file [frontend](https://github.com/mahadhir96/SalaryManagement/blob/main/swe-chaallenge-ui/README.md)
-- This link for README file [backend](https://github.com/mahadhir96/SalaryManagement/blob/main/swe-challenge/README.md)
+- This link for README file [frontend](https://github.com/mahadhir96/SalaryManagement/blob/main/swe-challenge-frontend/README.md)
+- This link for README file [backend](https://github.com/mahadhir96/SalaryManagement/blob/main/swe-challenge-backend/README.md)
 
 # Technologies 
 Project is created with: 
