@@ -1,4 +1,4 @@
-** # SWE Challange MVP Salary Management Web Application**
+** SWE Challange MVP Salary Management Web Application**
   
 # Overview
 - This webapp is to help the HR department manage employees' salaries 
