@@ -25,7 +25,7 @@ To run the project go to the **src/main/java**, **com.cts.SweChallange** package
 
 - 2nd method by checking the postman **GET** `localhost:8002/employees` **(image below)**
 
-![dasdsada](https://user-images.githubusercontent.com/71129999/174016788-bd98f240-a1e6-469a-887f-2b16775cbe9d.PNG)
+![dasdsada](https://user-images.githubusercontent.com/71129999/174097112-749d2250-f2a8-4fc3-8bfc-12b565753766.PNG)
 
 ## User Story 2 
 
