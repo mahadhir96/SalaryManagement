@@ -2,6 +2,7 @@
 
 ## Overview
 
+This backend is 
 
 ## Getting Started 
 
@@ -22,7 +23,7 @@
 
 - 2nd method by checking the postman GET localhost:8002/api/csv/employees (picture below)
 
-
+![dasdsada](https://user-images.githubusercontent.com/71129999/174016788-bd98f240-a1e6-469a-887f-2b16775cbe9d.PNG)
 
 ## User Story 2 
 
@@ -31,5 +32,10 @@
 
 ## User Story 3 
 
-- To view ind
+In the employeeController.java able
+- To view individual employees details 
+- To edit and update the list of the employees 
+- Able to delete individual employees details
+
+## Test cases 
 
