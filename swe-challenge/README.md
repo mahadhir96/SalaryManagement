@@ -18,9 +18,11 @@
 
 - 1st method by checking the localhost:8002/h2 and SELECT * FROM EMPLOYEES (picture below)
 
-
+![11](https://user-images.githubusercontent.com/71129999/174016479-b1c4435a-6792-4801-8433-74a61b4c4b93.PNG)
 
 - 2nd method by checking the postman GET localhost:8002/api/csv/employees (picture below)
+
+
 
 ## User Story 2 
 
