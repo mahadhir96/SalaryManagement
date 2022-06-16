@@ -35,9 +35,7 @@ To run the project go to the **src/main/java**, **com.cts.SweChallange** package
 ## User Story 3 
 
 In the employeeController.java able
-- To view individual employees details 
-- To edit and update the list of the employees 
+- Able to view individual employees details 
+- Able to edit and update the list of the employees 
 - Able to delete individual employees details
-
-## Test cases 
 
